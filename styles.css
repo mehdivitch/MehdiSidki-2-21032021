@@ -1,0 +1,105 @@
+
+    html,body,div{
+        margin:0px;
+        padding:0px;
+    }
+
+    header,main{
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+    
+}
+
+
+.navbar li  {
+    display: flex;
+   align-items: center;
+   justify-content:space-around;
+   list-style-type: none;
+    
+}
+
+.titreprincipal {
+    display: flex;
+    margin-top: 0%;
+   
+}
+
+p{
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+
+h1{  
+    margin-bottom: 0%;
+}
+
+.inputwithicon{
+    margin-bottom: 40px;
+}
+.filtres p{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    
+
+
+}
+
+.informations{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+
+.main img {
+	max-width: 100%;
+	height: 120px;
+}
+
+.main h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:initial
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aside{
+        flex-direction :column-reverse;
+        align-items : stretch;
+        align-content :flex-end;
+}  
+
+body{
+    flex: 1  auto;
+}
+body{
+    display: flex;
+flex-direction: column;
+}
+footer{
+    flex-shrink: 0;
+   
+}
+
+.contenu-footer{
+  
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
