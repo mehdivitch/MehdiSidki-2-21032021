@@ -18,9 +18,9 @@ header{
 }
 
 
-.navbar li  {
+.navbar ul  {
     display: flex;
-   align-items: center;
+   align-items:flex-start;
    justify-content:space-around;
    list-style-type: none;
     
@@ -60,6 +60,18 @@ h1{
     margin-top: 40px;
 }
 
+.blockone  {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.blocktwo{
+    display: flex;
+    justify-content: space-between;
+
+}
 
 .main img {
 	max-width: 100%;
